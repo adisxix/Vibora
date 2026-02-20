@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vibora — The Mood Engine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <video src="bg.mp4" autoplay muted loop id="bg-video"></video>
+
+    <h1 id="head" class="star-text">VIBORA</h1>
+    <h2 id="head2" class="star-text">How are you feeling today ?</h2>
+
+    <div class="moods-container">
+        <button class="mood" data-mood="happy">
+            Happy 😊
+        </button>
+        <button class="mood" data-mood="sad">
+            Sad 😔
+        </button>
+
+        <button class="mood" data-mood="bored">
+            Bored 😒
+        </button>
+        <button class="mood" data-mood="exhausted">
+            Exhausted 😴
+        </button>
+
+        <button class="mood" data-mood="stressed">
+            Stressed 😫
+        </button>
+
+
+    </div>
+
+    <div id="recommendations">
+        <h4 id="head4" class="star-text"></h4>
+        <p id="watch"></p>
+        <p id="listen"></p>
+        <p id="read"></p>
+        <p id="eat"></p>
+        <p id="drink"></p>
+        <p id="activity"></p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
